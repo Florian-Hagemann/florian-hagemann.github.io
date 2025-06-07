@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Posts</title>
         <link rel="stylesheet" href="style.css">
+        <script src="fetchposts.js"></script>
     </head>
-    <body>
+    <body onload="loadposts()">
         <nav>
             <a href="index.html">Home</a>
             <a href="posts.html">Posts</a>
@@ -19,7 +20,7 @@
         </header>
         
         <main>
-            <table>
+            <table id="postTable">
                 <tr>
                     <td><a href="">Welcome</a></td>
                     <td>2025-06-07</td>
