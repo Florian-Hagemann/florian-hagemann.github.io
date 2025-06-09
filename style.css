@@ -10,6 +10,10 @@ body {
     color: white;
 }
 
+.dark-mode nav {
+    background-color: #050203;
+}
+
 .dark-mode a {
     color:cornflowerblue;
     background-color: #050203;
@@ -21,10 +25,11 @@ table {
 
 nav {
     background-color: white;
-    position: sticky;
+    position: fixed;
     margin: 0;
-    top: 1%;
+    top: 0;
     width: 90%;
+    padding: 1%;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -37,7 +42,7 @@ a {
 }
 nav a {
     width: 100%;
-    margin: 0;
+    margin: auto;
     float: none;
 }
 nav a:hover {
