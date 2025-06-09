@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 600px) {
     main {
         margin-left: 2%;
@@ -13,7 +14,6 @@
         margin-top: auto;
 
     }
-}
 
 p {
     line-height: 2;
@@ -48,3 +48,11 @@ footer {
 #date {
     float: right;
 }
+
+#cover {
+    padding: 2%;
+    width: 30%;
+    min-width: 250px;
+    float:left;
+}
+
