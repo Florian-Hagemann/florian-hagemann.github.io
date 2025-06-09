@@ -1,8 +1,19 @@
-main {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: auto;
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: auto;
+    }
+
 }
+@media only screen and (min-width: 600px) {
+    main {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: auto;
+
+    }
 
 p {
     line-height: 2;
@@ -44,3 +55,4 @@ footer {
     min-width: 250px;
     float:left;
 }
+
