@@ -4,15 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Posts</title>
-        <link rel="stylesheet" href="lightstyle.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="darkmode.js"></script>
     </head>
-    <body onload="loadposts()">
+    <body onload="loadMode()">
         <nav>
             <a href="index.html">Home</a>
             <a href="posts.html">Posts</a>
             <a href="index.html#latest">Latest</a>
             <a href="index.html#about-me" on>About me</a>
             <a href="index.html#contact">Contact & links</a>
+            <button onclick="toggleDarkMode()">Dark mode</button>
         </nav>
         <header>
             <h1>Posts</h1>
