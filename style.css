@@ -1,0 +1,50 @@
+body {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.dark-mode {
+    background-color: #050203;
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: #050203;
+}
+
+.dark-mode a {
+    color:cornflowerblue;
+    background-color: #050203;
+}
+
+table {
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 90%;
+    padding: 1%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+ul {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+}
+nav a {
+    width: 100%;
+    margin: auto;
+    float: none;
+}
+nav a:hover {
+    background-color:lightgray;
+}

@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flo</title>
+    <title>Florian Hagemann</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="darkmode.js"></script>
 </head>
-<body>
-    test
+<body onload="loadMode()">
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="posts.html">Posts</a>
+        <a href="#latest">Latest</a>
+        <a href="#about-me" on>About me</a>
+        <a href="#contact">Contact & links</a>
+        <button onclick="toggleDarkMode()">Dark mode</button>
+    </nav>
+
+    <main>   
+        <article id="Latest">
+            <h2>Latest</h2>
+            <ul>
+                <li><a href="">Welcome!</a></li>
+            </ul>
+        </article>
+        
+        <article id="about-me">
+            <h2>About me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus tenetur incidunt iure ducimus iste, rerum dolorum sequi consequatur distinctio vero praesentium, voluptatibus minus, tempora harum nobis quod. Unde, consequatur hic!
+            </p>
+        </article>
+
+        <article id="contact">
+            <h2>Contact & links</h2>
+            <ul>
+                <li><p><b>Email:</b> florianhagemann42@gmail.com</p></li>
+                <li><a href="https://github.com/Florian-Hagemann">GitHub</a></li>
+            </ul>
+        </article>
+    </main>
+
 </body>
 </html>

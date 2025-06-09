@@ -1,0 +1,46 @@
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: auto;
+}
+
+p {
+    line-height: 2;
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+}
+
+.citation {
+    border: 0;
+    padding-left: 5px;
+    border-left: 1px;
+    border-style:solid;
+}
+
+.citation p {
+    margin-top: 1%;
+    padding: 0;
+}
+
+footer {
+    margin: 5%;
+    margin-top: auto;
+}
+
+#author {
+    float: left;
+}
+
+#date {
+    float: right;
+}
+
+#cover {
+    padding: 2%;
+    width: 30%;
+    min-width: 250px;
+    float:left;
+}
