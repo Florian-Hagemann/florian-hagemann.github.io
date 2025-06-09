@@ -12,6 +12,7 @@ body {
 
 .dark-mode a {
     color:cornflowerblue;
+    background-color: #050203;
 }
 
 table {
@@ -19,7 +20,8 @@ table {
 }
 
 nav {
-    position: fixed;
+    background-color: white;
+    position: sticky;
     margin: 0;
     top: 1%;
     width: 90%;
@@ -39,5 +41,5 @@ nav a {
     float: none;
 }
 nav a:hover {
-    background-color:black;
+    background-color:lightgray;
 }
