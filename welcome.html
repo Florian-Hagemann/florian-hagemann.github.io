@@ -10,40 +10,50 @@
         <script src="darkmode.js"></script>
     </head>
     <body onload="loadMode()">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="posts.html">Posts</a>
-            <a href="index.html#latest">Latest</a>
-            <a href="index.html#about-me" on>About me</a>
-            <a href="index.html#contact">Contact & links</a>
-            <button onclick="toggleDarkMode()">Dark mode</button>
-        </nav>
+        
+        <div id="mainpart">
+            <div id="leftBanner" class="banner">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="posts.html">Posts</a>
+                    <a href="index.html#latest">Latest</a>
+                    <a href="index.html#about-me" on>About me</a>
+                    <a href="index.html#contact">Contact & links</a>
+                    <button onclick="toggleDarkMode()">Dark mode</button>
+                </nav>
+            </div>
+            <div id="centerpage">
+                <header>
+                    <h1>
+                        Welcome!
+                    </h1>
+                </header>
 
-        <header>
-            <h1>
-                Welcome!
-            </h1>
-        </header>
+                <main>
+                    <article>
+                        <div class="citation">
+                            <cite>
+                                “A jack of all trades is a master of none, but oftentimes better than a master of none.”
+                            </cite>
+                            <p>-Proverb</p>
+                        </div>
+                        <Section>
+                            <p>
+                                This proverb is sadly often shortened to include only the first part, which leads to people believing that they need to focus on one particular hobby and master it. This often makes people ignore their other interests and lose what once made them happy. The main goal of this website is not for me to make money or get famous, it is an outlet for my interests. Not only can I nerd around and rant and just get my ideas out into the world, I can maybe encourage one or the other to explore what is fun for them and make them realize that they don’t need to focus on one thing, that they don’t always be good at everything, that they don’t need to be a master of one.
+                            </p>
+                        </Section>
+                    </article>
+                </main>
 
-        <main>
-            <article>
-                <div class="citation">
-                    <cite>
-                        “A jack of all trades is a master of none, but oftentimes better than a master of none.”
-                    </cite>
-                    <p>-Proverb</p>
-                </div>
-                <Section>
-                    <p>
-                        This proverb is sadly often shortened to include only the first part, which leads to people believing that they need to focus on one particular hobby and master it. This often makes people ignore their other interests and lose what once made them happy. The main goal of this website is not for me to make money or get famous, it is an outlet for my interests. Not only can I nerd around and rant and just get my ideas out into the world, I can maybe encourage one or the other to explore what is fun for them and make them realize that they don’t need to focus on one thing, that they don’t always be good at everything, that they don’t need to be a master of one.
-                    </p>
-                </Section>
-            </article>
-        </main>
-
-        <footer>
-            <p id="author">By Florian Hagemann</p>
-            <p id="date">2025-06-10</p>
-        </footer>
+                <footer>
+                    <p id="author">By Florian Hagemann</p>
+                    <p id="date">2025-06-10</p>
+                </footer>
+            </div>
+            <div id="rightBanner" class="banner">
+    
+            </div>
+        </div>
+        
     </body>
 </html>

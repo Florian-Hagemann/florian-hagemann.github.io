@@ -9,25 +9,37 @@
         <script src="darkmode.js"></script>
     </head>
     <body onload="loadMode()">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="posts.html">Posts</a>
-            <a href="index.html#latest">Latest</a>
-            <a href="index.html#about-me" on>About me</a>
-            <a href="index.html#contact">Contact & links</a>
-            <button onclick="toggleDarkMode()">Dark mode</button>
-        </nav>
-        <header>
-            <h1>Posts</h1>
-        </header>
         
-        <main>
-            <table>
-                <tr>
-                    <td><a href="welcome.html">Welcome</a></td>
-                    <td>2025-06-10</td>
-                </tr>
-            </table>
-        </main>
+        <div id="mainpart">
+            <div id="leftBanner" class="banner">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="posts.html">Posts</a>
+                    <a href="index.html#latest">Latest</a>
+                    <a href="index.html#about-me" on>About me</a>
+                    <a href="index.html#contact">Contact & links</a>
+                    <button onclick="toggleDarkMode()">Dark mode</button>
+                </nav>
+            </div>
+            <div id="centerpage">
+                <main>
+                    <header>
+                        <h1>Posts</h1>
+                    </header>
+                    <table>
+                        <tr>
+                            <td><a href="welcome.html">Welcome</a></td>
+                            <td>2025-06-10</td>
+                        </tr>
+                    </table>
+                </main>
+            </div>
+            <div id="rightBanner" class="banner">
+    
+            </div>
+        </div>
+        
+        
+        
     </body>
 </html>
