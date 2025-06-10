@@ -10,39 +10,47 @@
 </head>
 <body onload="loadMode()">
     
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="posts.html">Posts</a>
-        <a href="index.html#latest">Latest</a>
-        <a href="index.html#about-me" on>About me</a>
-        <a href="index.html#contact">Contact & links</a>
-        <button onclick="toggleDarkMode()">Dark mode</button>
-    </nav>
-
-    <main>   
-        <article id="Latest">
-            <h2>Latest</h2>
-            <ul>
-                <li><a href="welcome.html">Welcome!</a></li>
-            </ul>
-        </article>
+    
+    <div id="mainpart">
+        <div id="leftBanner" class="banner">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="posts.html">Posts</a>
+                <a href="index.html#latest">Latest</a>
+                <a href="index.html#about-me" on>About me</a>
+                <a href="index.html#contact">Contact & links</a>
+            </nav>
+        </div>
+        <div id="centerpage">
+            <main>   
+                <article id="Latest">
+                    <h2>Latest</h2>
+                    <ul>
+                        <li><a href="welcome.html">Welcome!</a></li>
+                    </ul>
+                </article>
+                
+                <article id="about-me">
+                    <h2>About me</h2>
+                    <p>
+                        I’m a 17 year old, who is trying his best to get better at his many interests. This site will hopefully give you some insight into my journey of becoming a modern polymath.
+                        My interests include mathematics, computer science, history, and chess. 
+                    </p>
+                </article>
         
-        <article id="about-me">
-            <h2>About me</h2>
-            <p>
-                I’m a 17 year old, who is trying his best to get better at his many interests. This site will hopefully give you some insight into my journey of becoming a modern polymath.
-                My interests include mathematics, computer science, history, and chess. 
-            </p>
-        </article>
+                <article id="contact">
+                    <h2>Contact & links</h2>
+                    <ul>
+                        <li><p><b>Email:</b> florianhagemann42@gmail.com</p></li>
+                        <li><a href="https://github.com/Florian-Hagemann">GitHub</a></li>
+                    </ul>
+                </article>
+            </main>
+        </div>
+        <div id="rightBanner" class="banner">
 
-        <article id="contact">
-            <h2>Contact & links</h2>
-            <ul>
-                <li><p><b>Email:</b> florianhagemann42@gmail.com</p></li>
-                <li><a href="https://github.com/Florian-Hagemann">GitHub</a></li>
-            </ul>
-        </article>
-    </main>
+        </div>
+    </div>
 
 </body>
 </html>
