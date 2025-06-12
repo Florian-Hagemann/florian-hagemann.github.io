@@ -34,16 +34,17 @@ table {
 nav {
     z-index: 2;
     background-color:var(--backgroundColor);
-    margin: 10px;
-    width: 100%;
-    padding: 1%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin: 5%;
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     box-shadow: 0 0 25px 2px;
+
+}
+nav {
+    width: 10%;
 }
 a {
     text-decoration: none;
@@ -60,8 +61,8 @@ nav a {
     height: 100%;
     width: 100%;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: none;
     background-color: var(--backgroundColor);
 }
@@ -79,16 +80,11 @@ nav a:hover {
 
 .banner {
     background-color:var(--designColor);
-    padding: 4%;
+    padding: 10%;
     height: 100%;
     z-index: 1;
 }
 
-#leftBanner {
-    float:left;
-    display: flex;
-    justify-content: center;
-}
 #rightBanner {
     z-index: 1;
     float: right;
