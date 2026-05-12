@@ -1,63 +1,53 @@
-/* ===== RESET ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* ===== COLORS (very subtle identity) ===== */
 :root {
-    --text: #111;
-    --muted: #555;
-    --accent: #2b6cb0; /* soft blue */
-    --bg: #ffffff;
+    --bg: #0e1210;        /* near-black green tint (very subtle) */
+    --text: #e8eee9;      /* soft warm white */
+    --muted: #a3ada7;    /* calm grey-green */
+    --accent: #6fd3a6;   /* controlled green (identity color) */
+    --border: #1b2420;
 }
 
-/* ===== BODY ===== */
+/* ===== BASE ===== */
 body {
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    line-height: 1.7;
-    color: var(--text);
     background: var(--bg);
+    color: var(--text);
+
+    font-family: Inter, -apple-system, Segoe UI, Roboto, sans-serif;
+    line-height: 1.75;
 
     max-width: 720px;
     margin: 0 auto;
-    padding: 70px 20px;
+    padding: 80px 24px;
 }
 
-/* ===== HEADLINES (PERSONALITY LAYER) ===== */
+/* ===== TYPOGRAPHY ===== */
 h1, h2, h3 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Fraunces", serif;
     font-weight: 500;
     letter-spacing: -0.2px;
 }
 
-/* big title */
+/* BIG TITLE */
 h1 {
-    font-size: 34px;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 
-/* section titles */
-h2 {
-    font-size: 20px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-/* ===== HEADER TEXT ===== */
+/* SUBTITLE */
 header p {
     color: var(--muted);
     font-size: 16px;
 }
 
-/* ===== PARAGRAPHS ===== */
-p {
-    margin-bottom: 16px;
-    color: var(--text);
+/* ===== SPACING SYSTEM ===== */
+section {
+    margin-top: 48px;
 }
 
-/* ===== LINKS (subtle personality) ===== */
+p {
+    margin-bottom: 16px;
+}
+
+/* ===== LINKS ===== */
 a {
     color: var(--accent);
     text-decoration: none;
@@ -67,12 +57,18 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ===== LISTS ===== */
+/* ===== LIST STYLE ===== */
 ul {
     list-style: none;
-    margin-top: 10px;
+    padding: 0;
 }
 
 li {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+/* subtle section separation */
+section + section {
+    border-top: 1px solid var(--border);
+    padding-top: 48px;
 }
