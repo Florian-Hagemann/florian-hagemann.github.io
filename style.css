@@ -17,6 +17,8 @@ body {
     max-width: 720px;
     margin: 0 auto;
     padding: 80px 24px;
+
+    text-align: justify;
 }
 
 /* ===== TYPOGRAPHY ===== */
