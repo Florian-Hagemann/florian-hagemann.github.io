@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter - Florian Hagemann</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="home" style="font-size: 14px; opacity: 0.7; margin-bottom: 20px; display: inline-block;">← Home</a>
+    <h1>The Newsletter</h1>
+    <p>Sign up to receive new essays directly, bypassing the algorithms.</p>
+</header>
+
+<main>
+    <section>
+        <p>In the spirit of autonomy, this list is managed personally. No tracking, no automated "slop". Just a direct line for thought.</p>
+        
+        <script>var submitted=false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+                onload="if(submitted){document.getElementById('success-msg').style.display='block'; document.getElementById('subForm').style.display='none';}">
+        </iframe>
+
+        <form action="https://docs.google.com/forms/d/e/1Bbm4Go5hSB5SscyY68IHFcRxKkuRoatssNfQeV7btLk/formResponse" 
+              method="POST" 
+              target="hidden_iframe" 
+              id="subForm" 
+              onsubmit="submitted=true;">
+            
+            <div style="margin-top: 32px;">
+                <input type="email" 
+                       name="entry.957284176" 
+                       placeholder="Email address" 
+                       required 
+                       style="padding: 12px; border: 1px solid var(--border); font-family: 'Inter', sans-serif; width: 100%; max-width: 300px; background: transparent; color: var(--text); border-radius: 4px;">
+                <br>
+                <button type="submit" 
+                        style="padding: 12px 24px; background: var(--accent); color: var(--bg); border: none; cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 500; margin-top: 16px; border-radius: 4px;">
+                    Join the Rebellion
+                </button>
+            </div>
+        </form>
+
+        <p id="success-msg" style="display:none; color: var(--accent); margin-top: 24px; font-style: italic; font-family: 'Fraunces', serif;">
+            You're in. Expect a human connection soon.
+        </p>
+        
+        <p style="margin-top: 48px; font-size: 0.8em; color: var(--muted);">
+            <em>To unsubscribe:</em> Simply reply to any email with "Unsubscribe" and I will manually remove you from the sheet.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <a href="https://github.com/Florian-Hagemann">GitHub</a>
+        ·
+        <a href="contact.html">Contact</a>
+        ·
+        <a href="newsletter.html">Newsletter</a>
+    </div>
+
+    <p>© 2026 Florian Hagemann</p>
+</footer>
+
+</body>
+</html>
