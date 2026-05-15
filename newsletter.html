@@ -23,29 +23,25 @@
         <iframe name="hidden_iframe" style="display:none;" 
                 onload="if(submitted){document.getElementById('success-msg').style.display='block'; document.getElementById('subForm').style.display='none';}">
         </iframe>
-<form action="https://docs.google.com/forms/d/e/1Bbm4Go5hSB5SscyY68IHFcRxKkuRoatssNfQeV7btLk/formResponse" method="POST">
-    <input type="email" name="entry.957284176" required>
-    <button type="submit">Test Rebellion</button>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdwf-bUu98OxDvC2xzAA7ws66SLgKTIb_5i-cIRL5bUWWFLww/formResponse" 
+      method="POST" 
+      target="hidden_iframe" 
+      id="subForm" 
+      onsubmit="submitted=true;">
+    
+    <div style="margin-top: 32px;">
+        <input type="email" 
+               name="entry.957284176" 
+               placeholder="Email address" 
+               required 
+               style="padding: 12px; border: 1px solid var(--border); font-family: 'Inter', sans-serif; width: 100%; max-width: 300px; background: transparent; color: var(--text); border-radius: 4px;">
+        <br>
+        <button type="submit" 
+                style="padding: 12px 24px; background: var(--accent); color: var(--bg); border: none; cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 500; margin-top: 16px; border-radius: 4px;">
+            Join the Rebellion
+        </button>
+    </div>
 </form>
-        <form action="https://docs.google.com/forms/d/e/1Bbm4Go5hSB5SscyY68IHFcRxKkuRoatssNfQeV7btLk/formResponse" 
-              method="POST" 
-              target="hidden_iframe" 
-              id="subForm" 
-              onsubmit="submitted=true;">
-            
-            <div style="margin-top: 32px;">
-                <input type="email" 
-                       name="entry.957284176" 
-                       placeholder="Email address" 
-                       required 
-                       style="padding: 12px; border: 1px solid var(--border); font-family: 'Inter', sans-serif; width: 100%; max-width: 300px; background: transparent; color: var(--text); border-radius: 4px;">
-                <br>
-                <button type="submit" 
-                        style="padding: 12px 24px; background: var(--accent); color: var(--bg); border: none; cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 500; margin-top: 16px; border-radius: 4px;">
-                    Join the Rebellion
-                </button>
-            </div>
-        </form>
 
         <p id="success-msg" style="display:none; color: var(--accent); margin-top: 24px; font-style: italic; font-family: 'Fraunces', serif;">
             You're in. Expect a human connection soon.
